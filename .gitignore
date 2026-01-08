@@ -1,0 +1,39 @@
+# Backup files - NEVER commit actual data
+*.sql
+*.sql.gz
+*.tar.gz
+*.tar
+backups/
+glpi_backup_*/
+/tmp/
+
+# Logs and temporary files
+*.log
+/logs/
+*.tmp
+*.pid
+
+# Configuration (don't commit sensitive data)
+.env
+.env.local
+.env.*.local
+.my.cnf
+credentials.txt
+secrets/
+*.key
+*.pem
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
