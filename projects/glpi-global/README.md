@@ -6,7 +6,6 @@ Backup and disaster recovery for THE company-wide GLPI instance.
 
 ✅ **Single Global GLPI Server**
 - Current: Physical server on 10.0.3.13
-- Future: Docker container on 10.0.3.18
 - Purpose: Company-wide asset inventory
 
 ## Quick Start
@@ -24,14 +23,9 @@ Backup and disaster recovery for THE company-wide GLPI instance.
 ## Configuration
 
 - **Current mode**: Remote (10.0.3.13)
-- **Future mode**: Docker (10.0.3.18)
 - **Config file**: `config/global/.env.global`
-
-## Migration
-
-See [MIGRATION_PLAN.md](docs/MIGRATION_PLAN.md) for migration details.
 
 ## Contacts
 
 - GLPI Administrator: guido.wilden@wefadetogrey.de
-- Backup Owner: ops@company.de
+- Backup Owner: engineering@wefadetogrey.de
